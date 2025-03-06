@@ -1,7 +1,7 @@
 "use client";
 
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
-import { FaHandHoldingHeart, FaMapMarkerAlt, FaWhatsapp, FaSms, FaClock, FaTint } from "react-icons/fa";
+import { FaHandHoldingHeart, FaMapMarkerAlt, FaWhatsapp, FaClock, FaTint } from "react-icons/fa";
 import { Header } from "@/components/Header";
 
 export default function AboutPage() {
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 </h3>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                Donors can only donate every 3 months unless it's an urgent situation. This ensures fairness and prevents misuse.
+                Donors can only donate every 3 months unless it&apos;s an urgent situation. This ensures fairness and prevents misuse.
               </p>
             </div>
 

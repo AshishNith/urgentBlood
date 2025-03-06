@@ -37,7 +37,7 @@ export default function ContactPage() {
             About Me
           </h2>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            Hi, I'm Piyush Kumar Sangam, a passionate developer currently pursuing my Bachelor's degree at NIT Hamirpur. I specialize in building modern web applications using the Next.js framework and the MERN (MongoDB, Express.js, React.js, Node.js) stack. I love solving real-world problems through technology and am always eager to learn and grow as a developer.
+            Hi, I&apos;m Piyush Kumar Sangam, a passionate developer currently pursuing my Bachelor&apos;s degree at NIT Hamirpur. I specialize in building modern web applications using the Next.js framework and the MERN (MongoDB, Express.js, React.js, Node.js) stack. I love solving real-world problems through technology and am always eager to learn and grow as a developer.
           </p>
         </div>
 

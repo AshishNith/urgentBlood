@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Quick Links */}
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
@@ -26,11 +26,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/login" className="hover:text-red-500 transition-colors">
-                  Login
-                </Link>
-              </li>
-              <li>
                 <Link href="/emergency-request" className="hover:text-red-500 transition-colors">
                   Emergency Request
                 </Link>
@@ -39,17 +34,17 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li>Email: support@bloodproject.com</li>
               <li>Phone: +1 234 567 890</li>
-              <li>Address: 123 Blood Street, Anu, Hamirpur</li>
+              <li>Address: Himadir Boys Hostel, NIT Hamirpur</li>
             </ul>
           </div>
 
           {/* Social Media Links */}
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a

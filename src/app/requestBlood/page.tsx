@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import { toast } from "react-hot-toast";
-import dynamic from "next/dynamic";
-import Link from "next/link"; // Import Link for navigation
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { Header } from "@/components/Header";
 
@@ -149,7 +147,6 @@ export default function FindNearbyDonorsPage() {
 
               {/* Map */}
               <div className="h-96 w-full rounded-lg overflow-hidden">
-                <Map donors={nearbyDonors} />
               </div>
             </div>
           </div>

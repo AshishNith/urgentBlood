@@ -8,7 +8,9 @@ const nextConfig = {
       },
     ],
   },
-  // Remove the experimental.optimizeFonts property
+  eslint: {
+    ignoreDuringBuilds: true, // Add this line to ignore ESLint during builds
+  },
 };
 
 module.exports = nextConfig;

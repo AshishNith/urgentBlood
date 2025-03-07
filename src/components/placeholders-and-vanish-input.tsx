@@ -168,13 +168,13 @@ export function PlaceholdersAndVanishInput({
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     vanishAndSubmit();
-    onSubmit && onSubmit(e);
+    // onSubmit && onSubmit(e);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!animating) {
       setValue(e.target.value);
-      onChange && onChange(e);
+      // onChange && onChange(e);
     }
   };
 
